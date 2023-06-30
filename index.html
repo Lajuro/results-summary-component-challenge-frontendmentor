@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <header class="app-header">
+      <h2>Your Result</h2>
+
+      <div class="focus-result">
+        <p class="result">76</p>
+        <p class="max">of 100</p>
+      </div>
+
+      <h3>Great</h3>
+      <p class="message">You scored higher than 65% of the people who have taken these tests.</p>
+    </header>
+
+    <main>
+      <h2>Summary</h2>
+
+      <div class="alert danger">
+        <div class="info">
+          <img class="icon" src="assets/images/icon-reaction.svg"
+            alt="Icon that represents the Reaction alert with a lightning symbol">
+          <p>Reaction</p>
+        </div>
+        <div class="details">
+          <strong>80</strong> / 100
+        </div>
+      </div>
+
+      <div class="alert warning">
+        <div class="info">
+          <img class="icon" src="assets/images/icon-memory.svg"
+            alt="Icon that represents the Memory alert with a brain symbol">
+          <p>Memory</p>
+        </div>
+        <div class="details">
+          <strong>92</strong> / 100
+        </div>
+      </div>
+
+      <div class="alert success">
+        <div class="info">
+          <img class="icon" src="assets/images/icon-verbal.svg"
+            alt="Icon that represents the Verbal alert with a speech balloon symbol">
+          <p>Verbal</p>
+        </div>
+        <div class="details">
+          <strong>61</strong> / 100
+        </div>
+      </div>
+
+      <div class="alert info">
+        <div class="info">
+          <img class="icon" src="assets/images/icon-visual.svg"
+            alt="Icon that represents the Visual alert with an eye symbol">
+          <p>Visual</p>
+        </div>
+        <div class="details">
+          <strong>72</strong> / 100
+        </div>
+      </div>
+
+      <button class="button primary">Continue</button>
+    </main>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Lajuro/">Roberto Camargo</a>.
+  </div>
+</body>
+
+</html>
